@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patagonia</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./libs/dist/tiny-slider.css">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header-slider">
+      <img class="header-slider__item" src="./img/header/bg-1.jpg" alt="">
+      <img class="header-slider__item" src="./img/header/bg-2.jpg" alt="">
+      <img class="header-slider__item" src="./img/header/bg-3.jpg" alt="">
+      <img class="header-slider__item" src="./img/header/bg-4.jpg" alt="">
+      <img class="header-slider__item" src="./img/header/bg-5.jpg" alt="">
+    </div>
+
+    <div class="header-slider-controls">
+      <div class="header-slider-controls__arrows">
+        <button id="sliderPrev"><img src="./img/icons/arrow-left.svg" alt="prev"></button>
+        <button id="sliderNext"><img src="./img/icons/arrow-right.svg" alt="next"></button>
+      </div>
+
+      <div class="header-slider-controls__count">
+        <span class="header-slider-controls__count-current" id="sliderCurrent">0</span>
+        /<span id="sliderTotal"> 0</span>
+      </div>
+    </div>
+
+    <div class="header__content">
+
+      <nav class="header-nav">
+
+        <div class="logo">
+          <img src="./img/logo/logo.png" alt="logo">
+          <img class="logo-text" src="./img/logo/logo-text.svg" alt="travelx">
+        </div>
+
+        <ul class="nav">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Destinations</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Activities</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+
+        <button class="extra-nav-btn">
+          <img src="./img/icons/nav-icon.svg" alt="">
+        </button>
+
+      </nav>
+      <div class="header-title">
+        <div class="header-title__small">Explore</div>
+        <h1 class="header-title__big">Patagonia</h1>
+
+        <ul class="header-socials">
+          <li><a href="#">
+              <img src="./img/socials/facebook.svg" alt="">
+            </a></li>
+          <li><a href="#">
+              <img src="./img/socials/twitter.svg" alt="">
+            </a></li>
+          <li><a href="#"><img src="./img/socials/instagram.svg" alt="">
+            </a></li>
+        </ul>
+      </div>
+
+      <div class="header-tips">
+
+        <a href="#" class="tip">
+          <span class="tip__title">Valdes Peninsula</span>
+          <span class="tip__text">Plan a trip</span>
+        </a>
+        <a href="#" class="tip">
+          <span class="tip__title">Perito Moreno Glacier</span>
+          <span class="tip__text">Plan a trip</span>
+        </a>
+        <a href="#" class="tip">
+          <span class="tip__title">Whale Watching</span>
+          <span class="tip__text">Plan a trip</span>
+        </a>
+      </div>
+      
+    </div>
+
+
+    <a href="#" class="header-seemore">See more</a>
+
+  </header>
+  <script src="./libs/dist/min/tiny-slider.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
